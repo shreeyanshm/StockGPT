@@ -3,7 +3,7 @@ import streamlit as st
 import openai
 from streamlit_chat import message
 
-openai.api_key = "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"
+openai.api_key = "api-key"
 
 st.title("StockGPT With Streamlit and OpenAI")
 
