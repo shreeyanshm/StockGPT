@@ -34,13 +34,12 @@ StockGPT currently uses a Twitter dataset from 7 Nov 2023 till 27 Oct 2022. The 
    git clone https://github.com/AVABSH3/StockGPT.git
    cd StockGPT
 ## 1. Install Dependencies:
-bash
-Copy code
-pip install -r requirements.txt
+pip install openai
+pip install streamlit
+pip install streamlit-chat
 
 ## 2. Run the Application:
 bash
-Copy code
 streamlit run StockGPT.py
 
 ## 3. Interact with StockGPT:
